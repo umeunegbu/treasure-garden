@@ -1,0 +1,116 @@
+@media (min-width: 768px) and (max-width: 1399px) {
+    /*.container{
+        border: 1px solid red;
+    }*/
+
+    .footer-title-2{
+        padding-left: 1.8rem;
+    }
+
+    .footer-text-wrapper-1{
+        margin-left: 2rem;        
+    }
+
+    .footer-address li {
+        white-space: normal;
+    }
+    
+    .footer-address li span {
+        display: inline;
+    }
+    
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    /*.container{
+        border: 1px solid red;
+    }
+
+    .footer-icon-wrapper{
+        border: 1px solid red;
+    }*/
+
+
+    .footer-text-wrapper-1{
+        padding-left: 0;
+        padding-right: 2rem;
+        border: 5px solid var(--color-navyblue);
+        margin-bottom: 1rem;
+        border-radius: 20px;
+    }
+
+    .footer-list{
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 991px){
+    .reviews-text-wrapper{
+        padding: 2rem 3rem 0;
+    }
+
+    .reviews .button-wrapper{
+        padding-right: 10.8rem!important;
+    }
+}
+
+@media (max-width: 767px){
+    .about-wrapper{
+        padding: 2rem 0 3rem;
+    }
+
+    .button-wrapper{
+        padding-left: 0!important;
+        padding-right: 10.7rem!important;
+    }
+
+    ul{
+        list-style-type: none;
+    }
+
+    .about-list{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .properties .button-wrapper{
+        padding-right: 13.5rem!important;
+    }
+
+    .projects .button-wrapper{
+        padding-right: 10.2rem!important;
+    }    
+
+}
+
+@media (max-width: 575px){
+    /*.container{
+        border: 1px solid red;
+    }    
+
+    .top-footer .main-row .main-col{
+        border: 1px solid black;
+    }*/
+
+    .top-footer .main-row{
+        flex-direction: column;
+    }
+
+    .top-footer .sub-row{
+        flex-direction: column;
+    }
+
+    .footer-text-wrapper-1{
+        padding-left: 0;
+        padding-right: 2rem;
+        border: 5px solid var(--color-navyblue);
+        margin-bottom: 1rem;
+        border-radius: 20px;
+    }
+
+    .footer-list{
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
